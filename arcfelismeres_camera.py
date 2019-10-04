@@ -1,5 +1,6 @@
 import cv2
 
+# nálam még kellett a cv2.data.haarcascades is az xml elé
 haar_face = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 haar_eye = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_eye.xml")
 
